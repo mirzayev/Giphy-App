@@ -1,0 +1,32 @@
+{
+  "name": "giphy-app",
+  "version": "1.0.0",
+  "description": "Custom giphy app using API",
+  "main": "app.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mirzayev/Giphy-app.git"
+  },
+  "keywords": [
+    "giphy",
+    "app",
+    "API"
+  ],
+  "author": "Mirzayev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mirzayev/Giphy-app/issues"
+  },
+  "homepage": "https://github.com/mirzayev/Giphy-app#readme",
+  "dependencies": {
+    "axios": "^0.18.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.24.4",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.1"
+  }
+}
