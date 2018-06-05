@@ -1,8 +1,9 @@
 # Giphy-app
 Custom Giphy app using API
 
-[![foo]("https://pbs.twimg.com/profile_images/699676239620083713/WCUM0RqH.jpg")](https://developers.giphy.com/)
+[Giphy Developers Page](https://developers.giphy.com/ "Giphy API page")
 ## Used techs
   - Axios
   - Bootstrap
   - ❤
+
