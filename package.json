@@ -22,7 +22,8 @@
   },
   "homepage": "https://github.com/mirzayev/Giphy-app#readme",
   "dependencies": {
-    "axios": "^0.18.0"
+    "axios": "^0.18.0",
+    "bootstrap-css-only": "^4.1.0"
   },
   "devDependencies": {
     "browser-sync": "^2.24.4",

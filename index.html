@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="/node_modules/bootstrap-css-only/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+	<title>Giphy</title>
+</head>
+
+<body>
+	<nav class="navbar navbar-dark bg-dark mb-3">
+		<div class="container">
+			<span class="navbar-brand">Jiffs</span>
+		</div>
+	</nav>
+	<div id="search-container" class="container">
+		<div id="search" class="card card-body bg-light mb-2">
+			<h4>Search jifs</h4>
+			<form id="search-form">
+				<div class="form-group">
+					<input type="text" id="search-input" class="form-control mb-3" placeholder="Search Term...">
+				</div>
+				<h5 class="mt-2">Limit: </h5>
+				<div class="form-group">
+					<select name="limit" id="limit" class="form-control">
+						<option value="10" selected>10</option>
+						<option value="20">20</option>
+						<option value="25">25</option>
+						<option value="50">50</option>
+					</select>
+				</div>
+				<button type="submit" class="btn btn-dark btn-block mt-4">Search</button>
+			</form>
+		</div>
+		<div id="results"></div>
+	</div>
+	<script src="/node_modules/axios/dist/axios.min.js"></script>
+	<script src="app.js"></script>
+</body>
+
+</html>
